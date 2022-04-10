@@ -1,0 +1,7 @@
+py -m venv env
+Set-ExecutionPolicy Unrestricted -Scope Process
+env\Scripts\activate
+pip3 install -qr requirementsAPI.txt
+set FLASK_APP=app.py
+set FLASK_ENV=development
+flask run
