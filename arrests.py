@@ -75,7 +75,7 @@ years = map(str,sl['Leta'])
 print(years)
 
 
-# Pie chart, where the slices will be ordered and plotted counter-clockwise:
+# Spodnja koda je namenjena predstavitvi števila aretacij v obliki tortnega diagrama, kjer lahko vidimo, da je bilo res največ aretacij zaradi zlorabe.
 labels = 'Prodaja in proizvodnja', 'Zloraba', 'Posesti'
 sizes = [10473302,47924215,37450908]
 explode = (0, 0.1, 0)
